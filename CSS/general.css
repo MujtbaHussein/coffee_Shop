@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-brown: #c7a17a;
+  --selective-gray: #4e4b4b;
+}
+
+/*
+==========================
+    GENERAL SETTINGS 
+==========================
+*/
+html {
+  scroll-behavior: smooth;
+  /* font-size: 62.5%; */
+}
+body {
+  font-family: "Rubik", sans-serif;
+  transition: all 0.3s;
+  color: var(--selective-gray);
+}
+.container {
+  margin: 0 auto;
+}
+li {
+  list-style: none;
+}
+
+.btn {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+i {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
